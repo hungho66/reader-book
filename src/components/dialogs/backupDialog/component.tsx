@@ -262,10 +262,10 @@ class BackupDialog extends React.Component<
                 this.setState({ isBackup: "yes" });
               }}
             >
-              {/* <span className="icon-backup"></span>
+              <span className="icon-backup"></span>
               <div style={{ lineHeight: 1.25 }}>
                 <Trans>Backup</Trans>
-              </div> */}
+              </div>
             </div>
 
             <div
