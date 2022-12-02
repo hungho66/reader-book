@@ -274,7 +274,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
           )}
         </>
 
-        {/* <div
+        <div
           className="import-from-cloud"
           onClick={() => {
             this.props.handleBackupDialog(true);
@@ -306,7 +306,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             handleDrag: this.props.handleDrag,
           }}
         />
-        {isElectron && <UpdateInfo />} */}
+        {isElectron && <UpdateInfo />}
       </div>
     );
   }
