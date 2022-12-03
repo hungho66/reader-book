@@ -116,7 +116,7 @@ class DeleteDialog extends React.Component<DeleteDialogProps> {
   render() {
     return (
       <div className="delete-dialog-container">
-        {this.props.mode === "shelf" ? (
+        {/* {this.props.mode === "shelf" ? (
           <div className="delete-dialog-title">
             <Trans>Delete from Shelf</Trans>
           </div>
@@ -181,7 +181,7 @@ class DeleteDialog extends React.Component<DeleteDialogProps> {
           }}
         >
           <Trans>Delete</Trans>
-        </div>
+        </div> */}
       </div>
     );
   }

@@ -129,12 +129,12 @@ class Sidebar extends React.Component<SidebarProps, SidebarState> {
           </Tooltip>
         </div>
 
-        <img style={{ width: "4%"}}
+        <img style={{ width: 50 }}
           src={
             StorageUtil.getReaderConfig("appSkin") === "night" ||
             (StorageUtil.getReaderConfig("appSkin") === "system" &&
               StorageUtil.getReaderConfig("isOSNight") === "yes")
-              ? "./assets/label.png"
+              ? "./assets/label_light.png"
               : "./assets/label.png"
           }
           alt=""

@@ -44,7 +44,7 @@ class AboutDialog extends React.Component<AboutDialogProps, AboutDialogState> {
           >
             <Trans>Setting</Trans>
           </li>
-{/* 
+
           <li
             className="sort-by-category-list"
             onClick={() => {
@@ -61,10 +61,10 @@ class AboutDialog extends React.Component<AboutDialogProps, AboutDialogState> {
           >
             <Trans>Help</Trans>
           </li>
-          <li
+          {/* <li
             className="sort-by-category-list"
             onClick={() => {
-              this.handleJump(`https://koodo.960960.xyz/en/support`);
+              this.handleJump(`https://metruyencv.com/truyen/quang-am-chi-ngoai`);
             }}
           >
             <Trans>Feedback</Trans>
@@ -84,16 +84,16 @@ class AboutDialog extends React.Component<AboutDialogProps, AboutDialogState> {
             }}
           >
             <Trans>Roadmap</Trans>
-          </li> */}
+          </li>
           <li
             className="sort-by-category-list"
             onClick={() => {
-              this.handleJump("https://metruyenchu.com/truyen/quang-am-chi-ngoai");
+              this.handleJump("https://koodo.960960.xyz");
             }}
           >
             <Trans>Our Website</Trans>
           </li>
-          {/* <li
+          <li
             className="sort-by-category-list"
             onClick={() => {
               this.handleJump(
@@ -102,8 +102,8 @@ class AboutDialog extends React.Component<AboutDialogProps, AboutDialogState> {
             }}
           >
             <Trans>Translation</Trans>
-          </li> */}
-          {/* <li
+          </li>
+          <li
             className="sort-by-category-list"
             onClick={() => {
               this.handleJump("https://github.com/troyeguo/koodo-reader");

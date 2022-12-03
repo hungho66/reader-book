@@ -130,7 +130,7 @@ class UpdateInfo extends React.Component<UpdateInfoProps, UpdateInfoState> {
                   {" " + version}
                 </div>
               )}
-              <div className="update-dialog-info" style={{ height: 420 }}>
+              {/* <div className="update-dialog-info" style={{ height: 420 }}>
                 <div className="new-version-animation">
                   {this.state.isUpdated ? (
                     <Lottie
@@ -178,7 +178,7 @@ class UpdateInfo extends React.Component<UpdateInfoProps, UpdateInfoState> {
                     </ul>
                   </>
                 )}
-              </div>
+              </div> */}
             </div>
           )}
       </>
