@@ -183,7 +183,7 @@ class BackupDialog extends React.Component<
               if (index === 3 && !isElectron) {
                 toast(
                   this.props.t(
-                    "Koodo Reader's web version are limited by the browser, for more powerful features, please download the desktop version."
+                    "CVT - Thanh Hung - MTC's web version are limited by the browser, for more powerful features, please download the desktop version."
                   )
                 );
                 return;
@@ -279,7 +279,7 @@ class BackupDialog extends React.Component<
                   event.preventDefault();
                   toast(
                     this.props.t(
-                      "Koodo Reader's web version are limited by the browser, for more powerful features, please download the desktop version."
+                      "CVT - Thanh Hung - MTC's web version are limited by the browser, for more powerful features, please download the desktop version."
                     )
                   );
                   return;

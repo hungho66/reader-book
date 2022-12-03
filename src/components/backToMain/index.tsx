@@ -33,7 +33,7 @@ const BackToMain = (props: any) => {
           }
         } else {
           props.history.push("/manager/home");
-          document.title = "Koodo Reader";
+          document.title = "CVT - Thanh Hung - MTC";
           props.handleReadingState(false);
         }
       }}

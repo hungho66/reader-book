@@ -166,8 +166,8 @@ class Manager extends React.Component<ManagerProps, ManagerState> {
         )}
         <Sidebar />
         <Header {...{ handleDrag: this.handleDrag }} />
-        {/* {this.props.isOpenDeleteDialog && <DeleteDialog />}
-        {this.props.isOpenEditDialog && <EditDialog />} */}
+        {this.props.isOpenDeleteDialog && <DeleteDialog />}
+        {/* {this.props.isOpenEditDialog && <EditDialog />} */}
         {this.props.isOpenAddDialog && <AddDialog />}
         {this.props.isShowLoading && <LoadingDialog />}
         <Toaster />

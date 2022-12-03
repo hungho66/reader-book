@@ -40,7 +40,7 @@ class Viewer extends React.Component<ViewerProps, ViewerState> {
         this.handleDjvu(result as ArrayBuffer);
         this.props.handleReadingState(true);
         RecentBooks.setRecent(key);
-        document.title = book.name + " - Koodo Reader";
+        document.title = book.name + " - CVT - Thanh Hung - MTC";
       });
     });
     document

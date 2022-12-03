@@ -40,7 +40,7 @@ const emptyCover = (props) => (
     >
       {props.title}
     </div>
-    <div className="cover-footer">Koodo Reader</div>
+    <div className="cover-footer">CVT - Thanh Hung - MTC</div>
   </div>
 );
 

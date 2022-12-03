@@ -86,7 +86,7 @@ class BookCardItem extends React.Component<BookCardProps, BookCardState> {
     this.setState({ isFavorite: false });
     if (Object.keys(AddFavorite.getAllFavorite()).length === 0) {
       this.props.history.push("/manager/empty");
-      document.title = "Koodo Reader";
+      document.title = "CVT - Thanh Hung - MTC";
     }
     toast.success(this.props.t("Cancel Successfully"));
   };
