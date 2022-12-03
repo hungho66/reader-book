@@ -162,7 +162,7 @@ class OperationPanel extends React.Component<
 
             if (StorageUtil.getReaderConfig("isOpenInMain") === "yes") {
               this.props.history.push("/manager/home");
-              document.title = "Koodo Reader";
+              document.title = "CVT Thanh Hung";
             } else {
               window.close();
             }
