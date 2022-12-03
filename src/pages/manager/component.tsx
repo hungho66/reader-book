@@ -173,7 +173,7 @@ class Manager extends React.Component<ManagerProps, ManagerState> {
         <Toaster />
         {this.props.isSortDisplay && <SortDialog />}
         {this.props.isAboutOpen && <AboutDialog />}
-        {/* {this.props.isBackup && <BackupDialog />} */}
+        {this.props.isBackup && <BackupDialog />}
         {this.props.isSettingOpen && <SettingDialog />}
         {this.props.isTipDialog && <TipDialog />}
         {(!books || books.length === 0) && this.state.totalBooks ? (
